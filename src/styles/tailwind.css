@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-navy-50: #f0f4f9;
+    --color-navy-100: #d9e2f0;
+    --color-navy-200: #bacce4;
+    --color-navy-300: #9cb0d6;
+    --color-navy-400: #7d95c8;
+    --color-navy-500: #5f7ab9;
+    --color-navy-600: #4b62a5;
+    --color-navy-700: #3a4c86;
+    --color-navy-800: #293968;
+    --color-navy-900: #0a2342;
+    
+    --color-gold-50: #fefbf0;
+    --color-gold-100: #fcf4d8;
+    --color-gold-200: #f8e8b0;
+    --color-gold-300: #f5db88;
+    --color-gold-400: #f1ce60;
+    --color-gold-500: #e6c229;
+    --color-gold-600: #d6b120;
+    --color-gold-700: #b28e15;
+    --color-gold-800: #8f6c10;
+    --color-gold-900: #745509;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+}

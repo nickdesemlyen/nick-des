@@ -1,0 +1,118 @@
+import React from 'react';
+import BookCard from '../components/BookCard';
+import SectionHeading from '../components/SectionHeading';
+
+const Books: React.FC = () => {
+  const books = [
+    {
+      title: "Wild and Crazy Guys: How The Comedy Mavericks of the '80s Changed Hollywood Forever",
+      coverImage: "./images/books/wildandcrazyguys.jpg",
+      description: "Wild and Crazy Guys is the larger-than-life story of the much-loved Hollywood comedy stars that ruled the 1980s.\n\nAs well as delving behind the scenes of classic movies such as Ghostbusters, Beverly Hills Cop, The Blues Brothers, Trading Places and dozens more, it chronicles the off-screen, larger-than-life antics of John Belushi, Dan Aykroyd, Bill Murray, Eddie Murphy, Chevy Chase, Steve Martin, John Candy et al. It's got drugs, sex, punch-ups, webbed toes and Bill Murray being pushed into a swimming pool by Hunter S Thompson, while tied to a lawn chair. Taking you on a trip through the tumultuous '80s, Wild And Crazy Guys explores the friendships, feuds, triumphs and disasters experienced by these iconic funnymen. Based on candid interviews from the stars themselves, as well as those who entered their orbit, it reveals the hidden history behind the most fertile period ever for screen comedy.",
+      year: "2019",
+      amazonUkUrl: "https://www.amazon.co.uk/Wild-Crazy-Guys-Comedy-Mavericks/dp/1529102227",
+      amazonUsUrl: "https://www.amazon.com/Wild-Crazy-Guys-Comedy-Mavericks/dp/1984826654",
+      waterstonesUrl: "https://www.waterstones.com/book/wild-and-crazy-guys/nick-de-semlyen/9781529102222",
+      barnesNobleUrl: "https://www.barnesandnoble.com/w/wild-and-crazy-guys-nick-de-semlyen/1129725161",
+    },
+    {
+      title: "The Last Action Heroes: The Triumphs, Flops and Feuds of Hollywood's Kings Of Carnage",
+      coverImage: "./images/books/lastactionheroes.jpg",
+      description: "The Last Action Heroes opens in May 1990 in Cannes, with Arnold Schwarzenegger and Sylvester Stallone waltzing together, cheered on by a crowd of famous faces. After years of bitter combat - Stallone once threw a bowl of flowers at Schwarzenegger's head, and the body count in Schwarzenegger's Commando was increased so the film would \"have a bigger dick than Rambo\" - the world's biggest action stars have at last made peace. In this wildly entertaining account of the golden age of the action movie, Nick de Semlyen charts Stallone and Schwarzenegger's carnage-packed journey from enmity to friendship against the backdrop of Reagan's America and the Cold War. He also reveals fascinating untold stories of the colorful characters who ascended in their wake: high-kickers Chuck Norris and Jackie Chan, glowering tough guys Dolph Lundgren and Steven Seagal, and quipping troublemakers Jean-Claude Van Damme and Bruce Willis. But as time rolled on, the era of the invincible action hero who used muscle, martial arts, or the perfect weapon to save the day began to fade. When Jurassic Park trounced Schwarzenegger's Last Action Hero in 1993, the glory days of these macho men - and the vision of masculinity they celebrated - were officially over. Drawing on candid interviews with the action stars themselves, plus their collaborators, friends, and foes, The Last Action Heroes is a no-holds-barred account of a period in Hollywood history when there were no limits to the heights of fame these men achieved, or to the mayhem they wrought, on-screen and off.",
+      year: "2023",
+      amazonUkUrl: "https://www.amazon.co.uk/Last-Action-Heroes-Triumphs-Hollywoods/dp/0241438152",
+      amazonUsUrl: "https://www.amazon.com/Last-Action-Heroes-Triumphs-Hollywoods/dp/0593186427",
+      waterstonesUrl: "https://www.waterstones.com/book/the-last-action-heroes/nick-de-semlyen/9780241438152",
+      barnesNobleUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142703307",
+    },
+  ];
+
+  const reviews = [
+    {
+      quote: "<i>[Wild and Crazy Guys is] an enjoyable romp that vividly captures the manic ups and downs of a remarkable group of funny folk.</i>",
+      source: "Peter Biskind, author of Easy Riders, Raging Bulls"
+    },
+    {
+      quote: "<i>The Last Action Heroes is an hugely entertaining romp through '80s and '90s action cinema, every page riddled with a zillion bullet holes.</i>",
+      source: "Edgar Wright, filmmaker"
+    },
+    {
+      quote: "<i>[The Last Action Heroes] takes you so close to the action that you can smell the sweat, cigar smoke, and bad cologne that brought these movies to life.</i>",
+      source: "Paul Scheer, host of How Did This Get Made?"
+    },
+    {
+      quote: "<i>There is no shortage of excellent critical writing about the US comedy scene in the '80s, and Wild and Crazy Guys is a terrific contribution to the genre.</i>",
+      source: "Hadley Freeman, The Guardian"
+    },
+    {
+      quote: "<i>The Last Action Heroes is an absolute blast to read, as thrilling as the genre itself.</i>",
+      source: "Priscilla Page, film writer"
+    },
+    {
+      quote: "<i>Stories of outsized egos, box-office hits, unexpected flops, and premature deaths. I read [Wild and Crazy Guys] cover to cover and couldn't put it down; it gets my highest recommendation.</i>",
+      source: "Leonard Maltin, film historian"
+    },
+  ];
+
+  return (
+    <>
+      {/* Books Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-7xl mx-auto">
+            <SectionHeading 
+              title="Books"
+              className="text-4xl md:text-5xl lg:text-6xl"
+            />
+            
+            <div className="space-y-16">
+              {books.map((book, index) => (
+                <div key={index}>
+                  <BookCard 
+                    title={book.title}
+                    coverImage={book.coverImage}
+                    description={book.description}
+                    year={book.year}
+                    amazonUkUrl={book.amazonUkUrl}
+                    amazonUsUrl={book.amazonUsUrl}
+                    waterstonesUrl={book.waterstonesUrl}
+                    barnesNobleUrl={book.barnesNobleUrl}
+                    index={index}
+                  />
+                  {index < books.length - 1 && (
+                    <div className="mt-16 border-t border-gray-200" />
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading 
+            title="Critical Acclaim" 
+            subtitle="What people have said about Nick's books:"
+            alignment="center"
+            className="text-3xl md:text-4xl font-bold font-serif text-navy-900 mb-4"
+          />
+          
+          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {reviews.map((review, index) => (
+              <div 
+                key={index}
+                className="bg-white rounded-lg shadow-md p-8"
+              >
+                <p className="text-gray-700 mb-6" dangerouslySetInnerHTML={{ __html: review.quote }} />
+                <p className="text-navy-900 font-medium" dangerouslySetInnerHTML={{ __html: review.source }} />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Books;

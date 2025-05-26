@@ -6,20 +6,20 @@ const Podcasts: React.FC = () => {
     {
       title: "BEST MOVIES NEVER MADE",
       episode: "Schwarzenegger’s Crusade",
-      description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata (producer, <i>Jodorowsky’s Dune,<i> and Josh Miller (writer, <i>Sonic The Hedgehog</i>, <i>Violent Night</i>).",
+      description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata (producer, <i>Jodorowsky’s Dune<i> and Josh Miller (writer, <i>Sonic The Hedgehog</i>, <i>Violent Night</i>).",
       date: "December 2024",
       imageUrl: "./images/articles/irishman.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
       spotifyUrl: "https://open.spotify.com/episode/1JgnoNFadGEV6QIclOSs6A?si=E5X8Q05HSBGGoE2ZnzmP5Q"
     },
     {
-      title: "Films To Be Buried With",
-      episode: "Nick de Semlyen",
-      description: "Discussing favorite films, career highlights, and the impact of 80s comedy on modern cinema.",
-      date: "January 2025",
+      title: "SCREENSHOT",
+      episode: "Saturday Night Live",
+      description: "Talking the history and impact of the long-running US sketch show with Mark Kermode, on his show co-hosted by Ellen E Jones.",
+      date: "October 2024",
       imageUrl: "./images/articles/joepesci.jpg",
-      appleUrl: "https://podcasts.apple.com/podcast/id1408585620",
-      spotifyUrl: "https://open.spotify.com/show/2DFQQHJtHPOL0CqsMYPDQj"
+      appleUrl: "https://podcasts.apple.com/gb/podcast/saturday-night-live/id1597470341?i=1000672743993",
+      spotifyUrl: "https://open.spotify.com/episode/66SHmdOTw5fwQMxinLVS9L?si=GswztbPATfCtkoMbFS6wxQ"
     },
     {
       title: "Kermode and Mayo's Film Review",

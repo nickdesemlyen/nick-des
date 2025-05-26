@@ -33,7 +33,7 @@ const Podcasts: React.FC = () => {
     {
       title: "90 MINUTES OR LESS",
       episode: "Cobra",
-      description: "Chatting Stallone vehicle Cobra (89 mins) with host Sam Clements, including the actor’s unique serving suggestion for frozen pizza.",
+      description: "Chatting Stallone vehicle Cobra (89 mins) with host Sam Clements.",
       date: "October 2023",
       imageUrl: "./images/articles/scarface.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/cobra-with-nick-de-semlyen/id1435004662?i=1000631159390",

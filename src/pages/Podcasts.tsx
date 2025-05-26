@@ -29,6 +29,15 @@ const Podcasts: React.FC = () => {
       imageUrl: "./images/articles/scarface.jpg",
       appleUrl: "https://podcasts.apple.com/podcast/id1020631449",
       spotifyUrl: "https://open.spotify.com/show/7ySxzMXnmEl7YGHv2u18M7"
+    },
+    {
+      title: "Kermode and Mayo's Film Review",
+      episode: "With Nick de Semlyen",
+      description: "A special episode discussing Last Action Heroes and the golden age of action cinema.",
+      date: "December 2024",
+      imageUrl: "./images/articles/scarface.jpg",
+      appleUrl: "https://podcasts.apple.com/podcast/id1020631449",
+      spotifyUrl: "https://open.spotify.com/show/7ySxzMXnmEl7YGHv2u18M7"
     }
   ];
 

@@ -41,7 +41,7 @@ const Articles: React.FC = () => {
       title: "<i>Kong: Skull Island</i>",
       description: "Shadowing the mighty ape in Hawaii, Australia and Vietnam",
       date: "2017",
-      imageUrl: "./images/articles/jurassicworld.jpg",
+      imageUrl: "./images/articles/kongskullisland.jpg",
       url: "/articles/kong.pdf",
     },
     {

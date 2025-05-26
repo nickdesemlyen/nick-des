@@ -5,7 +5,7 @@ const Podcasts: React.FC = () => {
   const podcasts = [
     {
       title: "BEST MOVIES NEVER MADE",
-      episode: "Schwarzenegger’s Crusade",
+      episode: "Schwarzeneggers Crusade",
       description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata (producer, <i>Jodorowsky’s Dune,/i> and Josh Miller (writer, <i>Sonic The Hedgehog</i>, <i>Violent Night</i>).",
       date: "December 2024",
       imageUrl: "./images/articles/irishman.jpg",

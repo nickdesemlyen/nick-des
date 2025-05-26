@@ -20,7 +20,7 @@ const Articles: React.FC = () => {
       title: "<i>The Irishman</i>",
       description: "De Niro, Pacino, Scorsese and Pesci talk",
       date: "2019",
-      imageUrl: "./images/articles/joepesci.jpg",
+      imageUrl: "./images/articles/irishman.jpg",
       url: "/articles/irishman.pdf",
     },
     {

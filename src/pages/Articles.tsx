@@ -343,7 +343,7 @@ const Articles: React.FC = () => {
     },
     {
       title: "Bondathon",
-      description: "What happens when three writers attempt to watch 20 Bond films in one sleepless session",
+      description: "Three writers watch 20 Bond films in one sleepless session",
       date: "2007",
       imageUrl: "./images/articles/bondathon.jpg",
       url: "/articles/bondathon.pdf",

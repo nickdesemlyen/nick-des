@@ -64,7 +64,7 @@ const Home: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold font-serif mb-4">Books</h3>
               <p className="text-gray-600 mb-6">
-                Non-fiction chronicling cinema history.
+                Non-fiction about cinema history.
               </p>
               <a 
                 href="/books" 

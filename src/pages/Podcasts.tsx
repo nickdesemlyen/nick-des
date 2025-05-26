@@ -4,13 +4,13 @@ import SectionHeading from '../components/SectionHeading';
 const Podcasts: React.FC = () => {
   const podcasts = [
     {
-      title: "TEST 2025",
-      episode: "Episode 500: Special Edition",
-      description: "A deep dive into the evolution of comedy in cinema, from the silent era to modern blockbusters.",
-      date: "February 2025",
+      title: "BEST MOVIES NEVER MADE",
+      episode: "Schwarzenegger’s Crusade",
+      description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata (producer, <i>Jodorowsky’s Dune,/i> and Josh Miller (writer, <i>Sonic The Hedgehog</i>, <i>Violent Night</i>).",
+      date: "December 2024",
       imageUrl: "./images/articles/irishman.jpg",
-      appleUrl: "https://podcasts.apple.com/podcast/id507987292",
-      spotifyUrl: "https://open.spotify.com/show/7ah8VZF8QxqqHpBV8wv6Lj"
+      appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
+      spotifyUrl: "https://open.spotify.com/episode/1JgnoNFadGEV6QIclOSs6A?si=E5X8Q05HSBGGoE2ZnzmP5Q"
     },
     {
       title: "Films To Be Buried With",

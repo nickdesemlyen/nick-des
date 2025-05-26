@@ -5,8 +5,8 @@ const Podcasts: React.FC = () => {
   const podcasts = [
     {
       title: "BEST MOVIES NEVER MADE",
-      episode: "Schwarzeneggers Crusade",
-      description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata (producer, <i>Jodorowskys Dune,/i> and Josh Miller (writer, <i>Sonic The Hedgehog</i>, <i>Violent Night</i>).",
+      episode: "Schwarzenegger’s Crusade",
+      description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata (producer, <i>Jodorowskys Dune,<i> and Josh Miller (writer, <i>Sonic The Hedgehog</i>, <i>Violent Night</i>).",
       date: "December 2024",
       imageUrl: "./images/articles/irishman.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",

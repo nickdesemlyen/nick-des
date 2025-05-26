@@ -13,14 +13,14 @@ const Articles: React.FC = () => {
       title: "Martin Scorsese",
       description: "The auteur on movies, memories and Marvel",
       date: "2019",
-      imageUrl: "./images/articles/irishman.jpg",
+      imageUrl: "./images/articles/marty.jpg",
       url: "/articles/scorsese.pdf",
     },
     {
       title: "<i>The Irishman</i>",
       description: "De Niro, Pacino, Scorsese and Pesci talk",
       date: "2019",
-      imageUrl: "./images/articles/irishman.jpg",
+      imageUrl: "./images/articles/irishman2.jpg",
       url: "/articles/irishman.pdf",
     },
     {
@@ -34,7 +34,7 @@ const Articles: React.FC = () => {
       title: "<i>Alita: Battle Angel</i>",
       description: "James Cameron and Robert Rodriguez on their cyborg epic",
       date: "2019",
-      imageUrl: "./images/articles/district9feature.jpg",
+      imageUrl: "./images/articles/alita.jpg",
       url: "/articles/alita.pdf",
     },
     {

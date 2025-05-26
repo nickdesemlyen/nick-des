@@ -280,7 +280,7 @@ const Articles: React.FC = () => {
     },
     {
       title: "Scott Pilgrim",
-      description: "World-exclusive look at the making of the movie",
+      description: "In Toronto for Edgar Wright’s sugar-rush blockbuster",
       date: "2010",
       imageUrl: "./images/articles/scottpilgrim.jpg",
       url: "/articles/pilgrim.pdf",

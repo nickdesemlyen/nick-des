@@ -32,7 +32,7 @@ const Books: React.FC = () => {
       source: "Peter Biskind, author of Easy Riders, Raging Bulls"
     },
     {
-      quote: "<i>The Last Action Heroes is an hugely entertaining romp through '80s and '90s action cinema, every page riddled with a zillion bullet holes.</i>",
+      quote: "<i>The Last Action Heroes is a hugely entertaining romp through '80s and '90s action cinema, every page riddled with a zillion bullet holes.</i>",
       source: "Edgar Wright, filmmaker"
     },
     {

@@ -22,13 +22,13 @@ const Podcasts: React.FC = () => {
       spotifyUrl: "https://open.spotify.com/episode/66SHmdOTw5fwQMxinLVS9L?si=GswztbPATfCtkoMbFS6wxQ"
     },
     {
-      title: "Kermode and Mayo's Film Review",
+      title: "MALTIN ON MOVIES",
       episode: "With Nick de Semlyen",
-      description: "A special episode discussing Last Action Heroes and the golden age of action cinema.",
-      date: "December 2024",
+      description: "Discussing movies and magazines with legendary film critic Leonard Maltin and his wonderful daughter Jessie.",
+      date: "February 2024",
       imageUrl: "./images/articles/scarface.jpg",
-      appleUrl: "https://podcasts.apple.com/podcast/id1020631449",
-      spotifyUrl: "https://open.spotify.com/show/7ySxzMXnmEl7YGHv2u18M7"
+      appleUrl: "https://podcasts.apple.com/gb/podcast/nick-de-semlyen/id935760435?i=1000644191534",
+      spotifyUrl: "https://open.spotify.com/episode/2hfGffcnIuoPJs160m2HDZ?si=W4wqkSGTQJS2yCM0s8gnFQ"
     },
     {
       title: "Kermode and Mayo's Film Review",

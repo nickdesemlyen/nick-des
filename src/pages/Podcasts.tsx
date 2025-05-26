@@ -8,7 +8,7 @@ const Podcasts: React.FC = () => {
       episode: "Schwarzenegger’s Crusade",
       description: "Journeying into an unmade epic with hosts Stephen Scarlata and Josh Miller.",
       date: "December 2024",
-      imageUrl: "./images/articles/irishman.jpg",
+      imageUrl: "./images/articles/bestmovies.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
       spotifyUrl: "https://open.spotify.com/episode/1JgnoNFadGEV6QIclOSs6A?si=E5X8Q05HSBGGoE2ZnzmP5Q"
     },
@@ -17,7 +17,7 @@ const Podcasts: React.FC = () => {
       episode: "Saturday Night Live",
       description: "Talking the history and impact of the long-running US sketch show with Mark Kermode.",
       date: "October 2024",
-      imageUrl: "./images/articles/joepesci.jpg",
+      imageUrl: "./images/articles/kermode.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/saturday-night-live/id1597470341?i=1000672743993",
       spotifyUrl: "https://open.spotify.com/episode/66SHmdOTw5fwQMxinLVS9L?si=GswztbPATfCtkoMbFS6wxQ"
     },
@@ -26,7 +26,7 @@ const Podcasts: React.FC = () => {
       episode: "Empire Magazine Special",
       description: "Discussing movies and magazines with Leonard and Jessie Maltin.",
       date: "February 2024",
-      imageUrl: "./images/articles/scarface.jpg",
+      imageUrl: "./images/articles/maltin.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/nick-de-semlyen/id935760435?i=1000644191534",
       spotifyUrl: "https://open.spotify.com/episode/2hfGffcnIuoPJs160m2HDZ?si=W4wqkSGTQJS2yCM0s8gnFQ"
     },
@@ -35,7 +35,7 @@ const Podcasts: React.FC = () => {
       episode: "Cobra",
       description: "Chatting Stallone vehicle Cobra (89 mins) with host Sam Clements, including the actor’s unique serving suggestion for frozen pizza.",
       date: "October 2023",
-      imageUrl: "./images/articles/scarface.jpg",
+      imageUrl: "./images/articles/90mins.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/cobra-with-nick-de-semlyen/id1435004662?i=1000631159390",
       spotifyUrl: "https://open.spotify.com/episode/2Ahigg8xvAzIGcZqUDO5RY?si=PBqlpMH3TtqS1653VicLkg"
     }

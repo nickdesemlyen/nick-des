@@ -250,7 +250,7 @@ const Articles: React.FC = () => {
       url: "/articles/changeup.pdf",
     },
     {
-      title: "The Three Amigos Reunion",
+      title: "Three Amigos Reunion",
       description: "Steve Martin, Chevy Chase and Martin Short",
       date: "2011",
       imageUrl: "./images/articles/threeamigos.jpg",

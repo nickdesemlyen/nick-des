@@ -29,7 +29,7 @@ const Books: React.FC = () => {
   const reviews = [
     {
       quote: "<i>[Wild and Crazy Guys is] an enjoyable romp that vividly captures the manic ups and downs of a remarkable group of funny folk.</i>",
-      source: "Peter Biskind, author of Easy Riders, Raging Bulls"
+      source: "Peter Biskind, author of <i>Easy Riders, Raging Bulls</i>"
     },
     {
       quote: "<i>The Last Action Heroes is a hugely entertaining romp through '80s and '90s action cinema, every page riddled with a zillion bullet holes.</i>",
@@ -37,11 +37,11 @@ const Books: React.FC = () => {
     },
     {
       quote: "<i>[The Last Action Heroes] takes you so close to the action that you can smell the sweat, cigar smoke, and bad cologne that brought these movies to life.</i>",
-      source: "Paul Scheer, host of How Did This Get Made?"
+      source: "Paul Scheer, host of <i>How Did This Get Made?</i>"
     },
     {
       quote: "<i>There is no shortage of excellent critical writing about the US comedy scene in the '80s, and Wild and Crazy Guys is a terrific contribution to the genre.</i>",
-      source: "Hadley Freeman, The Guardian"
+      source: "Hadley Freeman, <i>The Guardian</i>"
     },
     {
       quote: "<i>The Last Action Heroes is an absolute blast to read, as thrilling as the genre itself.</i>",

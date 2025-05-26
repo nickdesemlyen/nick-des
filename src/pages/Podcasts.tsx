@@ -6,7 +6,7 @@ const Podcasts: React.FC = () => {
     {
       title: "BEST MOVIES NEVER MADE",
       episode: "Schwarzenegger’s Crusade",
-      description: "Journeying into unmade epic CRUSADE with hosts Stephen Scarlata and Josh Miller.",
+      description: "Journeying into an unmade epic with hosts Stephen Scarlata and Josh Miller.",
       date: "December 2024",
       imageUrl: "./images/articles/irishman.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
@@ -24,7 +24,7 @@ const Podcasts: React.FC = () => {
     {
       title: "MALTIN ON MOVIES",
       episode: "Empire Magazine Special",
-      description: "Discussing movies and magazines with legendary film critic Leonard Maltin and his wonderful daughter Jessie.",
+      description: "Discussing movies and magazines with Leonard and Jessie Maltin.",
       date: "February 2024",
       imageUrl: "./images/articles/scarface.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/nick-de-semlyen/id935760435?i=1000644191534",

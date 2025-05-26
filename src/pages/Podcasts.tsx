@@ -15,7 +15,7 @@ const Podcasts: React.FC = () => {
     {
       title: "SCREENSHOT",
       episode: "Saturday Night Live",
-      description: "Talking the history and impact of the long-running US sketch show with Mark Kermode, on his show co-hosted by Ellen E Jones.",
+      description: "Talking the history and impact of the long-running US sketch show with Mark Kermode.",
       date: "October 2024",
       imageUrl: "./images/articles/joepesci.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/saturday-night-live/id1597470341?i=1000672743993",
@@ -33,7 +33,7 @@ const Podcasts: React.FC = () => {
     {
       title: "90 MINUTES OR LESS",
       episode: "Cobra",
-      description: "Talking Stallone vehicle Cobra (89 mins) with host Sam Clements, including the actor’s unique serving suggestion for frozen pizza.",
+      description: "Chatting Stallone vehicle Cobra (89 mins) with host Sam Clements, including the actor’s unique serving suggestion for frozen pizza.",
       date: "October 2023",
       imageUrl: "./images/articles/scarface.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/cobra-with-nick-de-semlyen/id1435004662?i=1000631159390",

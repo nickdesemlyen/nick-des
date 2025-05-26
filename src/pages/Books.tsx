@@ -32,24 +32,24 @@ const Books: React.FC = () => {
       source: "Peter Biskind, author of <i>Easy Riders, Raging Bulls</i>"
     },
     {
-      quote: "<i>The Last Action Heroes is a hugely entertaining romp through '80s and '90s action cinema, every page riddled with a zillion bullet holes.</i>",
-      source: "Edgar Wright, filmmaker"
+      quote: "<i>There is no shortage of excellent critical writing about the US comedy scene in the '80s, and Wild and Crazy Guys is a terrific contribution to the genre.</i>",
+      source: "Hadley Freeman, <i>The Guardian</i>"
+    },
+    {
+      quote: "<i>Stories of outsized egos, box-office hits, unexpected flops, and premature deaths. I read [Wild and Crazy Guys] cover to cover and couldn't put it down; it gets my highest recommendation.</i>",
+      source: "Leonard Maltin, film historian" 
     },
     {
       quote: "<i>[The Last Action Heroes] takes you so close to the action that you can smell the sweat, cigar smoke, and bad cologne that brought these movies to life.</i>",
       source: "Paul Scheer, host of <i>How Did This Get Made?</i>"
     },
     {
-      quote: "<i>There is no shortage of excellent critical writing about the US comedy scene in the '80s, and Wild and Crazy Guys is a terrific contribution to the genre.</i>",
-      source: "Hadley Freeman, <i>The Guardian</i>"
-    },
-    {
       quote: "<i>The Last Action Heroes is an absolute blast to read, as thrilling as the genre itself.</i>",
       source: "Priscilla Page, film writer"
     },
     {
-      quote: "<i>Stories of outsized egos, box-office hits, unexpected flops, and premature deaths. I read [Wild and Crazy Guys] cover to cover and couldn't put it down; it gets my highest recommendation.</i>",
-      source: "Leonard Maltin, film historian"
+      quote: "<i>The Last Action Heroes is a hugely entertaining romp through '80s and '90s action cinema, every page riddled with a zillion bullet holes.</i>",
+      source: "Edgar Wright, filmmaker"
     },
   ];
 

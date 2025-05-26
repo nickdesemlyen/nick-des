@@ -4,7 +4,7 @@ import SectionHeading from '../components/SectionHeading';
 const Podcasts: React.FC = () => {
   const podcasts = [
     {
-      title: "TEST Deploy",
+      title: "TEST 3",
       episode: "Episode 500: Special Edition",
       description: "A deep dive into the evolution of comedy in cinema, from the silent era to modern blockbusters.",
       date: "February 2025",

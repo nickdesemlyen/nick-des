@@ -27,7 +27,7 @@ const Articles: React.FC = () => {
       title: "Once Upon A Time In Hollywood",
       description: "In the edit with Quentin Tarantino",
       date: "2019",
-      imageUrl: "./images/articles/scarface.jpg",
+      imageUrl: "./images/articles/onceupon.jpg",
       url: "/articles/hollywood.pdf",
     },
     {

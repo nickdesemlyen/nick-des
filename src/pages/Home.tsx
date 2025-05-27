@@ -27,20 +27,20 @@ const Home: React.FC = () => {
                 reducedMargin
               />
               
-              <div className="space-y-6">
-                <p className="text-gray-700">
+              <div>
+                <p className="text-gray-700 mb-6">
                   Nick de Semlyen is the Editor of Empire magazine and has worked as a film journalist for over 20 years. He has interviewed a wide range of actors and directors and has been involved in organising reunions for the casts of classic films. His work has earned him several industry awards, including Editor of the Year in 2023.
                 </p>
 
-                <p className="text-gray-700">
+                <p className="text-gray-700 mb-6">
                   Outside of journalism, he has written two books: Wild And Crazy Guys (2019), about 1980s comedy stars, and The Last Action Heroes (2023), focusing on action film icons. He also appears on TV, radio, and podcasts to talk about film history and trends.
                 </p>
                 
                 <a 
                   href="/about" 
-                  className="inline-block mt-2 font-medium text-navy-800 hover:text-gold-600 transition-colors"
+                  className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
                 >
-                  Read more <ChevronDown size={16} className="ml-1 transform rotate-270 inline" />
+                  Read more <ChevronDown size={16} className="ml-1 transform rotate-270" />
                 </a>
               </div>
             </div>

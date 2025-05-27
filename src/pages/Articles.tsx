@@ -14,7 +14,7 @@ const Articles: React.FC = () => {
       description: "The auteur on movies, memories and Marvel",
       date: "2019",
       imageUrl: "./images/articles/marty.jpg",
-      url: "/articles/scorsese.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/MartinScorsese.pdf",
     },
     {
       title: "<i>The Irishman</i>",

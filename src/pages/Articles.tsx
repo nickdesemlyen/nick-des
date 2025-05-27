@@ -166,7 +166,7 @@ const Articles: React.FC = () => {
     },
     {
       title: "<i>Lost</i>",
-      description: "Cast and crew look back at the tropical sci-fi smash",
+      description: "An oral history for the pilot of the tropical sci-fi",
       date: "2013",
       imageUrl: "./images/articles/lost.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/Lost.pdf",

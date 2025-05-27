@@ -3,6 +3,15 @@ import SectionHeading from '../components/SectionHeading';
 
 const Podcasts: React.FC = () => {
   const podcasts = [
+     {
+      title: "BEST MOVIES NEVER MADE",
+      episode: "Schwarzenegger’s Crusade",
+      description: "Journeying into an unmade epic with hosts Stephen Scarlata and Josh Miller.",
+      date: "December 2024",
+      imageUrl: "./images/articles/bestmovies.jpg",
+      appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
+      spotifyUrl: "https://open.spotify.com/episode/1JgnoNFadGEV6QIclOSs6A?si=E5X8Q05HSBGGoE2ZnzmP5Q"
+    },
     {
       title: "BEST MOVIES NEVER MADE",
       episode: "Schwarzenegger’s Crusade",

@@ -176,7 +176,7 @@ const Articles: React.FC = () => {
       description: "Face to face with Gandalf the Grey",
       date: "2012",
       imageUrl: "./images/articles/ianmckellen.jpg",
-      url: "/articles/mckellen.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/IanMcKellen.pdf",
     },
     // Page 3
     {
@@ -184,21 +184,21 @@ const Articles: React.FC = () => {
       description: "Remembering his stint as 007",
       date: "2011",
       imageUrl: "./images/articles/timothydalton.jpg",
-      url: "/articles/dalton.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/TimothyDalton.pdf",
     },
     {
       title: "<i>The Muppets</i>",
       description: "On set for the fuzzy funsters' return",
       date: "2011",
       imageUrl: "./images/articles/muppets.jpg",
-      url: "/articles/muppets.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/Muppets.pdf",
     },
     {
       title: "Joe Pesci",
       description: "His first extensive interview since his '90s heyday",
       date: "2011",
       imageUrl: "./images/articles/joepesci.jpg",
-      url: "/articles/pesci.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/JoePesci.pdf",
     },
     {
       title: "<i>Lethal Weapon</i>",

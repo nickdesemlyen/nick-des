@@ -4,13 +4,13 @@ import SectionHeading from '../components/SectionHeading';
 const Podcasts: React.FC = () => {
   const podcasts = [
      {
-      title: "BEST MOVIES NEVER MADE",
-      episode: "Schwarzenegger’s Crusade",
-      description: "Journeying into an unmade epic with hosts Stephen Scarlata and Josh Miller.",
-      date: "December 2024",
+      title: "THE NOT READY FOR PRIME TIME PROJECT",
+      episode: "S04E18 Michael Palin/James Taylor",
+      description: "Dissecting an early episode of Saturday Night Live with hosts Gary Seith and Brad Robinson.",
+      date: "May 2025",
       imageUrl: "./images/articles/bestmovies.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
-      spotifyUrl: "https://open.spotify.com/episode/1JgnoNFadGEV6QIclOSs6A?si=E5X8Q05HSBGGoE2ZnzmP5Q"
+      spotifyUrl: "https://open.spotify.com/episode/05tUWXpE6EQ3dwaw22jYuX?si=edf82523b2524975"
     },
     {
       title: "BEST MOVIES NEVER MADE",

@@ -304,14 +304,14 @@ const Articles: React.FC = () => {
       description: "A report from the spooky Vancouver set",
       date: "2009",
       imageUrl: "./images/articles/xfiles2.jpg",
-      url: "/articles/xfiles2.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/XFiles2.pdf",
     },
     {
       title: "Mulder & Scully",
       description: "David Duchovny and Gillian Anderson talk",
       date: "2009",
       imageUrl: "./images/articles/mulderscully.jpg",
-      url: "https://storage.googleapis.com/nick-des/pdf/XFiles2.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/MulderScully.pdf",
     },
     {
       title: "A Serious Man",

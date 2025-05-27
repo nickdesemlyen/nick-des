@@ -13,7 +13,7 @@ const Books: React.FC = () => {
       amazonUsUrl: "https://www.amazon.com/Wild-Crazy-Guys-Comedy-Mavericks/dp/1984826654",
       waterstonesUrl: "https://www.waterstones.com/book/wild-and-crazy-guys/nick-de-semlyen/9781529102222",
       barnesNobleUrl: "https://www.barnesandnoble.com/w/wild-and-crazy-guys-nick-de-semlyen/1129725161",
-      audibleUrl: "https://www.audible.com/pd/Wild-and-Crazy-Guys-Audiobook/1984891871",
+      audibleUrl: "https://www.audible.co.uk/pd/Wild-and-Crazy-Guys-Audiobook/1509888624",
     },
     {
       title: "The Last Action Heroes: The Triumphs, Flops and Feuds of Hollywood's Kings Of Carnage",
@@ -24,7 +24,7 @@ const Books: React.FC = () => {
       amazonUsUrl: "https://www.amazon.com/Last-Action-Heroes-Triumphs-Hollywoods/dp/0593186427",
       waterstonesUrl: "https://www.waterstones.com/book/the-last-action-heroes/nick-de-semlyen/9780241438152",
       barnesNobleUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142703307",
-      audibleUrl: "https://www.audible.com/pd/The-Last-Action-Heroes-Audiobook/B0BW3WVHWJ",
+      audibleUrl: "https://www.audible.co.uk/pd/The-Last-Action-Heroes-Audiobook/B0BVGGC9MN",
     },
   ];
 

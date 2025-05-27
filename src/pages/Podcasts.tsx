@@ -9,7 +9,7 @@ const Podcasts: React.FC = () => {
       description: "Dissecting an early episode of Saturday Night Live with hosts Gary Seith and Brad Robinson.",
       date: "May 2025",
       imageUrl: "./images/articles/bestmovies.jpg",
-      appleUrl: "https://podcasts.apple.com/gb/podcast/schwarzeneggers-crusade-part-1-of-2/id1450737048?i=1000678881608",
+      appleUrl: "https://podcasts.apple.com/gb/podcast/the-early-years-of-snl-s04e18-michael-palin-james/id1674359942?i=1000710057131",
       spotifyUrl: "https://open.spotify.com/episode/05tUWXpE6EQ3dwaw22jYuX?si=edf82523b2524975"
     },
     {

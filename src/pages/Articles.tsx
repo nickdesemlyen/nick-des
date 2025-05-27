@@ -311,7 +311,7 @@ const Articles: React.FC = () => {
       description: "David Duchovny and Gillian Anderson talk",
       date: "2009",
       imageUrl: "./images/articles/mulderscully.jpg",
-      url: "/articles/xfiles.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/XFiles2.pdf",
     },
     {
       title: "A Serious Man",
@@ -325,14 +325,14 @@ const Articles: React.FC = () => {
       description: "An extensive interview with the comedy icon",
       date: "2008",
       imageUrl: "./images/articles/jerryseinfeld.jpg",
-      url: "/articles/seinfeld.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/JerrySeinfeld.pdf",
     },
     {
       title: "Chuck Norris",
       description: "A rare audience with the Lone Wolf",
       date: "2007",
       imageUrl: "./images/articles/chucknorris.jpg",
-      url: "/articles/norris.pdf",
+      url: "https://storage.cloud.google.com/nick-des/pdf/ChuckNorris.pdf",
     },
     {
       title: "Unknown Icons",

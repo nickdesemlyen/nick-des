@@ -13,16 +13,18 @@ const Books: React.FC = () => {
       amazonUsUrl: "https://www.amazon.com/Wild-Crazy-Guys-Comedy-Mavericks/dp/1984826654",
       waterstonesUrl: "https://www.waterstones.com/book/wild-and-crazy-guys/nick-de-semlyen/9781529102222",
       barnesNobleUrl: "https://www.barnesandnoble.com/w/wild-and-crazy-guys-nick-de-semlyen/1129725161",
+      audibleUrl: "https://www.audible.com/pd/Wild-and-Crazy-Guys-Audiobook/1984891871",
     },
     {
       title: "The Last Action Heroes: The Triumphs, Flops and Feuds of Hollywood's Kings Of Carnage",
       coverImage: "./images/books/lastactionheroes.jpg",
-      description: "This chronicle of the golden age of the action movie charts Sylvester Stallone and Arnold Schwarzenegger’s carnage-packed journey from enmity to friendship, against the backdrop of Reagan’s America and the Cold War. It also reveals untold stories of the colourful characters who ascended in their wake: high-kickers Chuck Norris and Jackie Chan, glowering tough guys Dolph Lundgren and Steven Seagal, and quipping troublemakers Jean-Claude Van Damme and Bruce Willis. Drawing on candid interviews with the action stars themselves, plus their collaborators, friends, and foes, <i>The Last Action Heroes</i> is a no-holds-barred account of a period in Hollywood history when there were no limits to the heights of fame these men achieved, or to the mayhem they wrought, on-screen and off. Audiobook read by Bronson Pinchot.",
+      description: "This chronicle of the golden age of the action movie charts Sylvester Stallone and Arnold Schwarzenegger's carnage-packed journey from enmity to friendship, against the backdrop of Reagan's America and the Cold War. It also reveals untold stories of the colourful characters who ascended in their wake: high-kickers Chuck Norris and Jackie Chan, glowering tough guys Dolph Lundgren and Steven Seagal, and quipping troublemakers Jean-Claude Van Damme and Bruce Willis. Drawing on candid interviews with the action stars themselves, plus their collaborators, friends, and foes, <i>The Last Action Heroes</i> is a no-holds-barred account of a period in Hollywood history when there were no limits to the heights of fame these men achieved, or to the mayhem they wrought, on-screen and off. Audiobook read by Bronson Pinchot.",
       year: "2023",
       amazonUkUrl: "https://www.amazon.co.uk/Last-Action-Heroes-Triumphs-Hollywoods/dp/0241438152",
       amazonUsUrl: "https://www.amazon.com/Last-Action-Heroes-Triumphs-Hollywoods/dp/0593186427",
       waterstonesUrl: "https://www.waterstones.com/book/the-last-action-heroes/nick-de-semlyen/9780241438152",
       barnesNobleUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142703307",
+      audibleUrl: "https://www.audible.com/pd/The-Last-Action-Heroes-Audiobook/B0BW3WVHWJ",
     },
   ];
 
@@ -76,6 +78,7 @@ const Books: React.FC = () => {
                     amazonUsUrl={book.amazonUsUrl}
                     waterstonesUrl={book.waterstonesUrl}
                     barnesNobleUrl={book.barnesNobleUrl}
+                    audibleUrl={book.audibleUrl}
                     index={index}
                   />
                   {index < books.length - 1 && (

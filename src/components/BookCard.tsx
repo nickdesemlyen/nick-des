@@ -10,6 +10,7 @@ interface BookCardProps {
   amazonUsUrl: string;
   waterstonesUrl: string;
   barnesNobleUrl: string;
+  audibleUrl: string;
   index: number;
 }
 
@@ -21,7 +22,8 @@ const BookCard: React.FC<BookCardProps> = ({
   amazonUkUrl,
   amazonUsUrl,
   waterstonesUrl,
-  barnesNobleUrl
+  barnesNobleUrl,
+  audibleUrl
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-8 items-start">
@@ -77,6 +79,16 @@ const BookCard: React.FC<BookCardProps> = ({
           >
             <ShoppingCart size={14} className="mr-1.5 text-black" />
             Barnes & Noble
+          </a>
+
+          <a 
+            href={audibleUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center px-3 py-1.5 rounded bg-white border border-gray-300 text-black hover:bg-gray-50 text-sm"
+          >
+            <ShoppingCart size={14} className="mr-1.5 text-black" />
+            Audible
           </a>
         </div>
       </div>

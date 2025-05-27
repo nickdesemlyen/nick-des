@@ -27,7 +27,7 @@ const Home: React.FC = () => {
                 reducedMargin
               />
               
-              <div>
+              <div className="space-y-6">
                 <p className="text-gray-700">
                   Nick de Semlyen is the Editor of Empire magazine and has worked as a film journalist for over 20 years. He has interviewed a wide range of actors and directors and has been involved in organising reunions for the casts of classic films. His work has earned him several industry awards, including Editor of the Year in 2023.
                 </p>
@@ -38,9 +38,9 @@ const Home: React.FC = () => {
                 
                 <a 
                   href="/about" 
-                  className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
+                  className="inline-block mt-2 font-medium text-navy-800 hover:text-gold-600 transition-colors"
                 >
-                  Read more <ChevronDown size={16} className="ml-1 transform rotate-270" />
+                  Read more <ChevronDown size={16} className="ml-1 transform rotate-270 inline" />
                 </a>
               </div>
             </div>
@@ -122,4 +122,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home
+export default Home;

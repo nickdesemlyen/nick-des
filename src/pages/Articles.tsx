@@ -162,14 +162,14 @@ const Articles: React.FC = () => {
       description: "Two days on set with Toretto and co.",
       date: "2013",
       imageUrl: "./images/articles/fastsix.jpg",
-      url: "/articles/fastsix.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/FastSix.pdf",
     },
     {
       title: "<i>Lost</i>",
       description: "Cast and crew look back at the tropical sci-fi smash",
       date: "2013",
       imageUrl: "./images/articles/lost.jpg",
-      url: "/articles/lost.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/Lost.pdf",
     },
     {
       title: "Ian McKellen",

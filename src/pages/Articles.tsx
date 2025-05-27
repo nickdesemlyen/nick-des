@@ -318,7 +318,7 @@ const Articles: React.FC = () => {
       description: "An interview with the Coen brothers",
       date: "2009",
       imageUrl: "./images/articles/aseriousman.jpg",
-      url: "/articles/seriousman.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/ASeriousMan.pdf",
     },
     {
       title: "Jerry Seinfeld",

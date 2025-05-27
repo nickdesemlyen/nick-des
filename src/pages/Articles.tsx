@@ -152,7 +152,7 @@ const Articles: React.FC = () => {
     },
     {
       title: "<i>The World's End</i>",
-      description: "Wright, Pegg and Frost celebrated with a spectacular photoshoot",
+      description: "A photoshoot with the Cornetto Trilogy trio (but who’s that zombie?)",
       date: "2013",
       imageUrl: "./images/articles/theworldsend.jpg",
       url: "https://storage.cloud.google.com/nick-des/pdf/WorldsEnd.pdf",

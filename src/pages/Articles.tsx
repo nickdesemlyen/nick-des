@@ -339,14 +339,14 @@ const Articles: React.FC = () => {
       description: "Interviews with cinema's unhailed heroes",
       date: "2007",
       imageUrl: "./images/articles/unknownicons.jpg",
-      url: "/articles/icons.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/UnknownIcons.pdf",
     },
     {
       title: "Bondathon",
       description: "Three writers watch 20 Bond films in one sleepless session",
       date: "2007",
       imageUrl: "./images/articles/bondathon.jpg",
-      url: "/articles/bondathon.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/Bondathon.pdf",
     },
   ];
 

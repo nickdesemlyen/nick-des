@@ -21,7 +21,7 @@ const Articles: React.FC = () => {
       description: "De Niro, Pacino, Scorsese and Pesci talk",
       date: "2019",
       imageUrl: "./images/articles/irishman2.jpg",
-      url: "/articles/irishman.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/Irishman.pdf",
     },
     {
       title: "Once Upon A Time In Hollywood",

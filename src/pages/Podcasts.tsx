@@ -8,7 +8,7 @@ const Podcasts: React.FC = () => {
       episode: "S04E18 Michael Palin/James Taylor",
       description: "Dissecting an early episode of Saturday Night Live with hosts Gary Seith and Brad Robinson.",
       date: "May 2025",
-      imageUrl: "./images/articles/bestmovies.jpg",
+      imageUrl: "./images/articles/notreadyfor.jpg",
       appleUrl: "https://podcasts.apple.com/gb/podcast/the-early-years-of-snl-s04e18-michael-palin-james/id1674359942?i=1000710057131",
       spotifyUrl: "https://open.spotify.com/episode/05tUWXpE6EQ3dwaw22jYuX?si=edf82523b2524975"
     },

@@ -103,7 +103,7 @@ const Articles: React.FC = () => {
     },
     {
       title: "<i>Bad Taste</i>",
-      description: "Peter Jackson reunites with his old mates to tell the story of his first film",
+      description: "Peter Jackson reunites with old mates to tell the story of his first film",
       date: "2015",
       imageUrl: "./images/articles/badtaste.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/BadTaste.pdf",

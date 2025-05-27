@@ -67,7 +67,7 @@ const Articles: React.FC = () => {
     },
     {
       title: "Burt Reynolds",
-      description: "The legend remembers his wild life and crazy career",
+      description: "A visit to the legend’s home and acting school",
       date: "2015",
       imageUrl: "./images/articles/burtreynolds.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/BurtReynolds.pdf",

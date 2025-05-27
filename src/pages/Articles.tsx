@@ -90,7 +90,7 @@ const Articles: React.FC = () => {
       title: "<i>Jurassic World</i>",
       description: "On set of the monster dinosaur smash",
       date: "2015",
-      imageUrl: "./images/articles/jurassicpark.jpg",
+      imageUrl: "./images/articles/jurassicworld.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/Jurassic%20World.pdf",
     },
     // Page 2

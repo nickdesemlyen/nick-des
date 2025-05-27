@@ -28,7 +28,7 @@ const Articles: React.FC = () => {
       description: "In the edit with Quentin Tarantino",
       date: "2019",
       imageUrl: "./images/articles/onceupon.jpg",
-      url: "/articles/OnceUponATimeInHollywood.pdf",
+      url: "https://storage.googleapis.com/nick-des/pdf/OnceUponATimeInHollywood.pdf",
     },
     {
       title: "<i>Alita: Battle Angel</i>",

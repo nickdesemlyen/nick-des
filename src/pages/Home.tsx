@@ -53,27 +53,6 @@ const Home: React.FC = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Books */}
-            <div className="bg-white rounded-lg shadow-md p-8 text-center">
-              <div className="w-full max-w-[300px] mx-auto mb-6">
-                <img 
-                  src="./images/books/lastactionheroes.jpg" 
-                  alt="Last Action Heroes book cover"
-                  className="w-full rounded-lg shadow-lg"
-                />
-              </div>
-              <h3 className="text-xl font-bold font-serif mb-4">Books</h3>
-              <p className="text-gray-600 mb-6">
-                Non-fiction about cinema history.
-              </p>
-              <a 
-                href="/books" 
-                className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
-              >
-                View books <ChevronDown size={16} className="ml-1 transform rotate-270" />
-              </a>
-            </div>
-            
             {/* Articles */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center">
               <div className="w-full max-w-[300px] aspect-[3/4] relative mx-auto mb-6">
@@ -92,6 +71,27 @@ const Home: React.FC = () => {
                 className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
               >
                 Read articles <ChevronDown size={16} className="ml-1 transform rotate-270" />
+              </a>
+            </div>
+            
+            {/* Books */}
+            <div className="bg-white rounded-lg shadow-md p-8 text-center">
+              <div className="w-full max-w-[300px] mx-auto mb-6">
+                <img 
+                  src="./images/books/lastactionheroes.jpg" 
+                  alt="Last Action Heroes book cover"
+                  className="w-full rounded-lg shadow-lg"
+                />
+              </div>
+              <h3 className="text-xl font-bold font-serif mb-4">Books</h3>
+              <p className="text-gray-600 mb-6">
+                Non-fiction about cinema history.
+              </p>
+              <a 
+                href="/books" 
+                className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
+              >
+                View books <ChevronDown size={16} className="ml-1 transform rotate-270" />
               </a>
             </div>
             

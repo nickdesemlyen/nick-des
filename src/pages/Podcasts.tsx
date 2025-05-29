@@ -88,9 +88,11 @@ const Podcasts: React.FC = () => {
                           rel="noopener noreferrer"
                           className="flex items-center justify-center px-3 py-1.5 rounded bg-white border border-gray-300 text-black hover:bg-gray-50 text-sm"
                         >
-                          <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 mr-1.5 text-[#9933CC]">
-                            <path fill="currentColor" d="M12 0a12 12 0 1 0 12 12A12 12 0 0 0 12 0zm0 3.6a8.4 8.4 0 0 1 .85 16.772V15.4a3.6 3.6 0 1 0-1.7 0v4.972A8.4 8.4 0 0 1 12 3.6zm0 8.4a1.2 1.2 0 1 1-1.2 1.2 1.2 1.2 0 0 1 1.2-1.2z"/>
-                          </svg>
+                          <img 
+                            src="/images/podcasts/applepodcasts.png" 
+                            alt="Apple Podcasts" 
+                            className="w-3.5 h-3.5 mr-1.5" 
+                          />
                           Listen on Apple Podcasts
                         </a>
                         <a 

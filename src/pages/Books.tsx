@@ -22,8 +22,8 @@ const Books: React.FC = () => {
       year: "2023",
       amazonUkUrl: "https://amzn.eu/d/5Y5zLdt",
       amazonUsUrl: "https://a.co/d/9Q2Mr47",
-      waterstonesUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142050698?ean=9780593238820",
-      barnesNobleUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142703307",
+      waterstonesUrl: "https://www.waterstones.com/book/the-last-action-heroes/nick-de-semlyen/9781529058529",
+      barnesNobleUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142050698?ean=9780593238820",
       audibleUrl: "https://www.audible.co.uk/pd/The-Last-Action-Heroes-Audiobook/B0BVGGC9MN",
     },
   ];

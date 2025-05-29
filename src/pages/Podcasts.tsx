@@ -89,7 +89,7 @@ const Podcasts: React.FC = () => {
                           className="flex items-center justify-center px-3 py-1.5 rounded bg-white border border-gray-300 text-black hover:bg-gray-50 text-sm"
                         >
                           <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 mr-1.5 text-[#9933CC]">
-                            <path fill="currentColor" d="M11.93 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm-.5-22.95a11 11 0 1 0 11 11 11.012 11.012 0 0 0-11-11zm5.282 16.405a1.047 1.047 0 0 1-1.445.32l-4.172-2.409a1.047 1.047 0 0 1-.523-.908V8.143c0-.578.469-1.047 1.047-1.047h2.093c.578 0 1.047.469 1.047 1.047v5.14l3.273 1.89a1.047 1.047 0 0 1 .32 1.445l-1.64 2.837z"/>
+                            <path fill="currentColor" d="M12 0a12 12 0 1 0 12 12A12 12 0 0 0 12 0zm0 3.6a8.4 8.4 0 0 1 .85 16.772V15.4a3.6 3.6 0 1 0-1.7 0v4.972A8.4 8.4 0 0 1 12 3.6zm0 8.4a1.2 1.2 0 1 1-1.2 1.2 1.2 1.2 0 0 1 1.2-1.2z"/>
                           </svg>
                           Listen on Apple Podcasts
                         </a>

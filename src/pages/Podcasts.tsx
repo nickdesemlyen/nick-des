@@ -86,7 +86,7 @@ const Podcasts: React.FC = () => {
                           href={podcast.appleUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center justify-center px-3 py-1.5 rounded bg-black border border-gray-300 text-white hover:bg-gray-900 text-sm"
+                          className="flex items-center justify-center px-3 py-1.5 rounded bg-white border border-gray-300 text-black hover:bg-gray-50 text-sm"
                         >
                           <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 mr-1.5 text-[#872EC4]">
                             <path fill="currentColor" d="M23.977 12.123c0-2.32-.59-4.608-1.746-6.762-.898-1.671-2.047-3.141-3.449-4.351-1.365-1.181-2.962-2.115-4.724-2.73C12.878 1.775 11.445 1.5 10 1.5c-1.473 0-2.935.287-4.327.828-1.773.69-3.37 1.69-4.724 2.953C-.205 7.37-1.5 10.057-1.5 12.873c0 2.817 1.295 5.503 3.449 7.592 1.354 1.263 2.95 2.263 4.724 2.953 1.392.541 2.854.828 4.327.828 1.445 0 2.878-.275 4.058-.78 1.762-.615 3.359-1.549 4.724-2.73 1.402-1.21 2.551-2.68 3.449-4.351 1.156-2.154 1.746-4.442 1.746-6.762z"/>
@@ -99,7 +99,7 @@ const Podcasts: React.FC = () => {
                           href={podcast.spotifyUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="flex items-center justify-center px-3 py-1.5 rounded bg-black border border-gray-300 text-white hover:bg-gray-900 text-sm"
+                          className="flex items-center justify-center px-3 py-1.5 rounded bg-white border border-gray-300 text-black hover:bg-gray-50 text-sm"
                         >
                           <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 mr-1.5 text-[#1DB954]">
                             <path fill="currentColor" d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>

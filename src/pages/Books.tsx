@@ -12,7 +12,7 @@ const Books: React.FC = () => {
       amazonUkUrl: "https://amzn.eu/d/1oeYSxP",
       amazonUsUrl: "https://a.co/d/dkHk9eY",
       waterstonesUrl: "https://www.waterstones.com/book/wild-and-crazy-guys/nick-de-semlyen/9781529015812",
-      barnesNobleUrl: "https://www.barnesandnoble.com/w/wild-and-crazy-guys-nick-de-semlyen/1129725161",
+      barnesNobleUrl: "https://www.barnesandnoble.com/w/wild-and-crazy-guys-nick-de-semlyen/1129853095?ean=9781984826664",
       audibleUrl: "https://www.audible.co.uk/pd/Wild-and-Crazy-Guys-Audiobook/1509888624",
     },
     {

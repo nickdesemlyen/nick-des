@@ -9,7 +9,7 @@ const Books: React.FC = () => {
       coverImage: "./images/books/wildandcrazyguys.jpg",
       description: "<i>Wild and Crazy Guys</i> is the larger-than-life story of the much-loved Hollywood comedy stars that ruled the 1980s.\n\nAs well as delving behind the scenes of classic movies such as <i>Ghostbusters</i>, <i>Beverly Hills Cop</i>, <i>The Blues Brothers</i>, <i>Trading Places</i> and dozens more, it chronicles the off-screen, often raucous antics of John Belushi, Dan Aykroyd, Bill Murray, Eddie Murphy, Chevy Chase, Steve Martin, John Candy and Rick Moranis. Based on candid interviews from the stars themselves, as well as those who entered their orbit, it reveals the hidden history behind the most fertile period ever for screen comedy. Audiobook read by Curtis Armstrong.",
       year: "2019",
-      amazonUkUrl: "https://amzn.eu/d/5Y5zLdt",
+      amazonUkUrl: "https://amzn.eu/d/e6lfnpb",
       amazonUsUrl: "https://a.co/d/9Q2Mr47",
       waterstonesUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142050698?ean=9780593238820",
       barnesNobleUrl: "https://www.barnesandnoble.com/w/the-last-action-heroes-nick-de-semlyen/1142703307",

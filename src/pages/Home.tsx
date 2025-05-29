@@ -55,11 +55,11 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Books */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center">
-              <div className="w-full max-w-[300px] aspect-[3/4] relative mx-auto mb-6">
+              <div className="w-full max-w-[300px] mx-auto mb-6">
                 <img 
                   src="./images/books/lastactionheroes.jpg" 
                   alt="Last Action Heroes book cover"
-                  className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-lg"
+                  className="w-full rounded-lg shadow-lg"
                 />
               </div>
               <h3 className="text-xl font-bold font-serif mb-4">Books</h3>

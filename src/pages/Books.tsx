@@ -9,7 +9,7 @@ const Books: React.FC = () => {
       coverImage: "./images/books/wildandcrazyguys.jpg",
       description: "<i>Wild and Crazy Guys</i> is the larger-than-life story of the much-loved Hollywood comedy stars that ruled the 1980s.\n\nAs well as delving behind the scenes of classic movies such as <i>Ghostbusters</i>, <i>Beverly Hills Cop</i>, <i>The Blues Brothers</i>, <i>Trading Places</i> and dozens more, it chronicles the off-screen, often raucous antics of John Belushi, Dan Aykroyd, Bill Murray, Eddie Murphy, Chevy Chase, Steve Martin, John Candy and Rick Moranis. Based on candid interviews from the stars themselves, as well as those who entered their orbit, it reveals the hidden history behind the most fertile period ever for screen comedy. Audiobook read by Curtis Armstrong.",
       year: "2019",
-      amazonUkUrl: "https://www.amazon.co.uk/Wild-Crazy-Guys-Comedy-Mavericks/dp/1529102227",
+      amazonUkUrl: "https://amzn.eu/d/1oeYSxP",
       amazonUsUrl: "https://www.amazon.com/Wild-Crazy-Guys-Comedy-Mavericks/dp/1984826654",
       waterstonesUrl: "https://www.waterstones.com/book/wild-and-crazy-guys/nick-de-semlyen/9781529102222",
       barnesNobleUrl: "https://www.barnesandnoble.com/w/wild-and-crazy-guys-nick-de-semlyen/1129725161",

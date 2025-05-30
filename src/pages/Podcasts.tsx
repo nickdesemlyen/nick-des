@@ -15,7 +15,7 @@ const Podcasts: React.FC = () => {
     },
     {
       title: "BEST MOVIES NEVER MADE",
-      episode: "Schwarzenegger’s Crusade",
+      episode: "Schwarzenegger's Crusade",
       description: "Journeying into an unmade epic with hosts Stephen Scarlata and Josh Miller.",
       date: "December 2024",
       imageUrl: "./images/articles/bestmovies.jpg",
@@ -71,8 +71,8 @@ const Podcasts: React.FC = () => {
                     <div className="md:w-1/3">
                       <img 
                         src={podcast.imageUrl} 
-                        alt={podcast.title} 
-                        className="w-full h-64 object-cover"
+                        alt={podcast.title}
+                        className="w-full h-full object-contain p-4"
                       />
                     </div>
                     <div className="md:w-2/3 p-6 md:p-8">

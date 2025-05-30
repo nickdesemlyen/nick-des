@@ -76,11 +76,11 @@ const Home: React.FC = () => {
             
             {/* Books */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center">
-              <div className="w-full h-[400px] mx-auto mb-6 flex items-center justify-center">
+              <div className="w-full max-w-[300px] h-[400px] relative mx-auto mb-6">
                 <img 
                   src="./images/books/lastactionheroes.jpg" 
                   alt="Last Action Heroes book cover"
-                  className="h-full w-auto rounded-lg shadow-lg"
+                  className="w-full h-full object-contain rounded-lg shadow-lg"
                 />
               </div>
               <h3 className="text-xl font-bold font-serif mb-4">Books</h3>

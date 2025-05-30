@@ -76,7 +76,7 @@ const Home: React.FC = () => {
             
             {/* Books */}
             <div className="bg-white rounded-lg shadow-md p-8 text-center">
-              <div className="w-full max-w-[300px] h-[400px] relative mx-auto mb-6">
+              <div className="w-full max-w-[300px] h-[400px] relative mx-auto mb-2">
                 <img 
                   src="./images/books/lastactionheroes.jpg" 
                   alt="Last Action Heroes book cover"

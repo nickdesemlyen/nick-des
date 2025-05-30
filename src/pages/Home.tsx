@@ -83,8 +83,8 @@ const Home: React.FC = () => {
                   className="w-full h-full object-contain rounded-lg shadow-lg"
                 />
               </div>
-              <h3 className="text-xl font-bold font-serif mb-4">Books</h3>
-              <p className="text-gray-600 mb-6">
+              <h3 className="text-xl font-bold font-serif mb-4 mt-6">Books</h3>
+              <p className="text-gray-600 mb-6 mt-2">
                 Non-fiction about cinema history.
               </p>
               <a 

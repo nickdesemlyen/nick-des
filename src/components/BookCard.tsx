@@ -27,11 +27,11 @@ const BookCard: React.FC<BookCardProps> = ({
 }) => {
   return (
     <div className="flex flex-col md:flex-row gap-8 items-start">
-      <div className="w-full md:w-[300px] aspect-[3/4] relative">
+      <div className="w-full md:w-[300px] relative">
         <img 
           src={coverImage} 
           alt={`${title} book cover`} 
-          className="absolute inset-0 w-full h-full object-cover rounded-lg shadow-xl"
+          className="w-full object-contain rounded-lg shadow-xl"
         />
       </div>
       

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ChevronDown } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 
@@ -66,12 +67,12 @@ const Home: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 Set visits, previews and profiles.
               </p>
-              <a 
-                href="/articles" 
+              <Link 
+                to="/articles" 
                 className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
               >
                 Read articles <ChevronDown size={16} className="ml-1 transform rotate-270" />
-              </a>
+              </Link>
             </div>
             
             {/* Books */}
@@ -87,12 +88,12 @@ const Home: React.FC = () => {
               <p className="text-gray-600 mb-6 mt-2">
                 Non-fiction about cinema history.
               </p>
-              <a 
-                href="/books" 
+              <Link 
+                to="/books" 
                 className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
               >
                 View books <ChevronDown size={16} className="ml-1 transform rotate-270" />
-              </a>
+              </Link>
             </div>
             
             {/* Podcasts */}
@@ -108,12 +109,12 @@ const Home: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 Guest appearances on film and entertainment shows.
               </p>
-              <a 
-                href="/podcasts" 
+              <Link 
+                to="/podcasts" 
                 className="inline-flex items-center font-medium text-navy-800 hover:text-gold-600 transition-colors"
               >
                 Listen now <ChevronDown size={16} className="ml-1 transform rotate-270" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

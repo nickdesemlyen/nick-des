@@ -18,7 +18,7 @@ const About: React.FC = () => {
                 />
                 
                 <div className="space-y-6 text-gray-700">
-                   <p>Nick de Semlyen is the current Editor of <i>Empire</i>, the world's biggest movie magazine. With over 20 years of experience as a film journalist, Nick has established himself as an authoritative voice, interviewing hundreds of actors, directors and industry insiders, from James Cameron and Martin Scorsese to Scarlett Johansson and Al Pacino. He has orchestrated several reunions of the stars of iconic movies, including <i>Gremlins</i>, <i>Lethal Weapon</i>, <i>Three Amigos</i> and <i>The Goonies</i>.</p>
+                   <p>Nick de Semlyen is the Editor of <i>Empire</i>, the world's biggest movie magazine. With over 20 years of experience as a film journalist, Nick has established himself as an authoritative voice, interviewing hundreds of actors, directors and industry insiders, from James Cameron and Martin Scorsese to Scarlett Johansson and Al Pacino. He has orchestrated several reunions of the stars of iconic movies, including <i>Gremlins</i>, <i>Lethal Weapon</i>, <i>Three Amigos</i> and <i>The Goonies</i>.</p>
 
 <p>During his time at <i>Empire</i>, Nick has won several awards, including Editor of the Year (BSMEs, 2023), Journalist of the Year (Magazine Media Awards, 2018) and Best Writer (Bauer Media Awards, 2015).</p>
 

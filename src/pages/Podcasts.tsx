@@ -68,11 +68,11 @@ const Podcasts: React.FC = () => {
                   className="bg-white rounded-lg shadow-md overflow-hidden"
                 >
                   <div className="flex flex-col md:flex-row">
-                    <div className="md:w-1/3 min-h-[300px] flex items-center justify-center">
+                    <div className="md:w-1/3">
                       <img 
                         src={podcast.imageUrl} 
-                        alt={podcast.title}
-                        className="w-full max-h-[280px] object-contain p-6"
+                        alt={podcast.title} 
+                        className="w-full h-64 object-cover"
                       />
                     </div>
                     <div className="md:w-2/3 p-6 md:p-8">

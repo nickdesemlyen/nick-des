@@ -5,7 +5,7 @@ import { Music } from 'lucide-react';
 const Podcasts: React.FC = () => {
   const podcasts = [
      {
-      title: "THE NOT READY FOR PRIME TIME PROJECT",
+      title: "The Not Ready for Prime Time Project",
       episode: "S04E18 Michael Palin/James Taylor",
       description: "Dissecting an early episode of Saturday Night Live with hosts Gary Seith and Brad Robinson.",
       date: "May 2025",
@@ -14,7 +14,7 @@ const Podcasts: React.FC = () => {
       spotifyUrl: "https://open.spotify.com/episode/05tUWXpE6EQ3dwaw22jYuX?si=edf82523b2524975"
     },
     {
-      title: "BEST MOVIES NEVER MADE",
+      title: "Best Movies Never Made",
       episode: "Schwarzenegger's Crusade",
       description: "Journeying into an unmade epic with hosts Stephen Scarlata and Josh Miller.",
       date: "December 2024",
@@ -23,7 +23,7 @@ const Podcasts: React.FC = () => {
       spotifyUrl: "https://open.spotify.com/episode/1JgnoNFadGEV6QIclOSs6A?si=E5X8Q05HSBGGoE2ZnzmP5Q"
     },
     {
-      title: "SCREENSHOT",
+      title: "Screenshot",
       episode: "Saturday Night Live",
       description: "Talking the history and impact of the long-running US sketch show with Mark Kermode.",
       date: "October 2024",
@@ -32,7 +32,7 @@ const Podcasts: React.FC = () => {
       spotifyUrl: "https://open.spotify.com/episode/66SHmdOTw5fwQMxinLVS9L?si=GswztbPATfCtkoMbFS6wxQ"
     },
     {
-      title: "MALTIN ON MOVIES",
+      title: "Maltin on Movies",
       episode: "Empire Magazine Special",
       description: "Discussing movies and magazines with Leonard and Jessie Maltin.",
       date: "February 2024",
@@ -41,7 +41,7 @@ const Podcasts: React.FC = () => {
       spotifyUrl: "https://open.spotify.com/episode/2hfGffcnIuoPJs160m2HDZ?si=W4wqkSGTQJS2yCM0s8gnFQ"
     },
     {
-      title: "90 MINUTES OR LESS",
+      title: "90 Minutes or Less",
       episode: "Cobra",
       description: "Chatting Stallone vehicle Cobra (89 mins) with host Sam Clements.",
       date: "October 2023",

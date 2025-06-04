@@ -17,10 +17,10 @@ const Articles: React.FC = () => {
       url: "https://storage.googleapis.com/nick-des/pdf/MartinScorsese.pdf",
     },
     {
-      title: "<i>The Irishman</i>",
+      title: "The Irishman",
       description: "De Niro, Pacino, Scorsese and Pesci talk",
       date: "2019",
-      imageUrl: "./images/articles/irishman2.jpg",
+      imageUrl: "./images/articles/Irishman2.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/Irishman.pdf",
     },
     {
@@ -31,21 +31,21 @@ const Articles: React.FC = () => {
       url: "https://storage.googleapis.com/nick-des/pdf/OnceUponATimeInHollywood.pdf",
     },
     {
-      title: "<i>Alita: Battle Angel</i>",
+      title: "Alita: Battle Angel",
       description: "James Cameron and Robert Rodriguez on their cyborg epic",
       date: "2019",
       imageUrl: "./images/articles/alita.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/Alita.pdf",
     },
     {
-      title: "<i>Kong: Skull Island</i>",
+      title: "Kong: Skull Island",
       description: "Shadowing the mighty ape in Hawaii, Australia and Vietnam",
       date: "2017",
       imageUrl: "./images/articles/kongskullisland.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/KongSkullIsland.pdf",
     },
     {
-      title: "<i>The Fellowship Of The Ring</i>",
+      title: "The Fellowship Of The Ring",
       description: "The Lord of the Rings stars interview each other",
       date: "2017",
       imageUrl: "./images/articles/fellowshipofthering.jpg",
@@ -59,7 +59,7 @@ const Articles: React.FC = () => {
       url: "https://storage.googleapis.com/nick-des/pdf/NicolasCage.pdf",
     },
     {
-      title: "<i>Ghostbusters</i>",
+      title: "Ghostbusters",
       description: "Ready for slime time on the set of the spectral reboot",
       date: "2016",
       imageUrl: "./images/articles/ghostbusters.jpg",
@@ -73,14 +73,14 @@ const Articles: React.FC = () => {
       url: "https://storage.googleapis.com/nick-des/pdf/BurtReynolds.pdf",
     },
     {
-      title: "<i>Suicide Squad</i>",
+      title: "Suicide Squad",
       description: "Three days on set with the supervillain crew",
       date: "2015",
       imageUrl: "./images/articles/suicidesquad.jpg",
       url: "https://storage.googleapis.com/nick-des/pdf/SuicideSquad.pdf",
     },
     {
-      title: "<i>Ant-Man</i>",
+      title: "Ant-Man",
       description: "How Marvel turned a tiny hero into a large hit",
       date: "2015",
       imageUrl: "./images/articles/antman.jpg",

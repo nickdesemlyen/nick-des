@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionHeading from '../components/SectionHeading';
 import { Mail, Twitter, Instagram } from 'lucide-react';
-import ContactForm from '../components/ContactForm';
+// import ContactForm from '../components/ContactForm';
 
 const Contact: React.FC = () => {
   return (
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
                 </div>
               </div>
               
-              <ContactForm />
+              {/* <ContactForm /> */}
             </div>
         </div>
       </div>

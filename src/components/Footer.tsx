@@ -25,6 +25,14 @@ const Footer: React.FC = () => {
               <Twitter size={24} />
               <span className="sr-only">X (Twitter)</span>
             </a>
+            <a href="https://bsky.app/profile/nickdesemlyen.bsky.social" target="_blank" rel="noopener noreferrer" className="text-black hover:text-black hover:underline transition-colors">
+              <img 
+                src="/images/bluesky-social-media-3csnef5yovxtuqmp2416qd.webp"
+                alt="Bluesky"
+                className="w-6 h-6"
+              />
+              <span className="sr-only">Bluesky</span>
+            </a>
             <a href="https://instagram.com/nickdesemlyen" target="_blank" rel="noopener noreferrer" className="text-black hover:text-black hover:underline transition-colors">
               <Instagram size={24} />
               <span className="sr-only">Instagram</span>

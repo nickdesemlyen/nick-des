@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
           />
             
           <div className="mt-12">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl">
               <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
                 <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center mb-4">
                   <Mail size={20} className="text-gray-600" />

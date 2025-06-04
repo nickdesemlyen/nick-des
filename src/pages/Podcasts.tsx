@@ -68,18 +68,18 @@ const Podcasts: React.FC = () => {
                   className="bg-white rounded-lg shadow-md overflow-hidden"
                 >
                   <div className="flex flex-col md:flex-row">
-                    <div className="md:w-1/3 p-6 flex items-center justify-center">
+                    <div className="md:w-1/3 p-4 flex items-center justify-center">
                       <img 
                         src={podcast.imageUrl} 
                         alt={podcast.title} 
-                        className="w-full h-auto rounded-lg"
+                        className="w-full h-48 md:h-40 lg:h-48 object-cover rounded-lg"
                       />
                     </div>
-                    <div className="md:w-2/3 p-6">
+                    <div className="md:w-2/3 p-4 md:p-6">
                       <p className="text-gold-600 font-medium mb-2">{podcast.date}</p>
                       <h2 className="text-2xl font-bold font-serif text-navy-900 mb-2">{podcast.title}</h2>
                       <h3 className="text-xl text-gray-700 mb-4">{podcast.episode}</h3>
-                      <p className="text-gray-600 mb-6">{podcast.description}</p>
+                      <p className="text-gray-600 mb-4">{podcast.description}</p>
                       
                       <div className="flex flex-wrap gap-4">
                         <a 

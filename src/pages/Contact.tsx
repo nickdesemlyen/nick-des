@@ -7,14 +7,13 @@ const Contact: React.FC = () => {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
-          <div>
+        <div className="max-w-3xl mx-auto">
             <SectionHeading 
               title="Get In Touch"
               className="text-4xl md:text-5xl lg:text-6xl"
             />
             
-            <div className="space-y-8">
+            <div className="space-y-8 mt-12">
               <div className="flex items-center space-x-4">
                 <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                   <Mail size={20} className="text-gray-600" />
@@ -65,11 +64,6 @@ const Contact: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div>
-            <ContactForm />
-          </div>
         </div>
       </div>
     </section>
